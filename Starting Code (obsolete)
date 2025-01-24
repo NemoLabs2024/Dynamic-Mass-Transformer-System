@@ -1,1 +1,9 @@
+#This was the first code on the PC. I had freshly wiped Windows10 from my old rig and installed Ubunto 22.04 using a USB. 
+sudo apt update && sudo apt upgrade #This updates and installs what was needed. 
+sudo apt install python3 python3-pip #Python3 was selected for ease of dependency files. 
+sudo apt install python3-venv #I needed an enviroment to work in
+python3 -m venv NEMO_env
+source NEMO_env/bin/activate #I will active this every time I run my code
+pip install torch transformers #major libraries needed.
+#pip installs I dicovered that I would need: 
 
